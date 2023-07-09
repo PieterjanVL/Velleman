@@ -7,7 +7,7 @@ import re
 # Function to perform some action with the name
 def process_name(url, product_name):
     # Perform your desired operation here
-    driver = webdriver.Chrome('chromedriver.exe')  # Optional argument, if not specified will search path.
+    driver = webdriver.Chrome('')  # Optional argument, if not specified will search path.
     url = 'https://www.bol.com/nl/nl/l/volleybal-scoreborden/54143/'
     driver.get(url)
     time.sleep(2)
